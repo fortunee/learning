@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { SoapComponent } from './soap-component/soap.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SoapComponent
   ],
   imports: [
     BrowserModule
